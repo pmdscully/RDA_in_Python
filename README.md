@@ -5,6 +5,19 @@ This is an implementation of the 'Receptor Density Algorithm' (RDA) Python 2.7. 
 
 Details of the experimentation and implementation to be added. See /images/ directory for outputs of our trial run with k=10 cross fold validation on some sampled two-stage normal data.
 
+<img src="https://raw.githubusercontent.com/pmdscully/RDA_in_Python/master/images/out.gif" width="600" />
+
+### Usage:
+```
+git clone https://github.com/pmdscully/RDA_in_Python.git
+cd src/
+python rda.py
+```
+
+### Adapting the Code:
+- Essentially it performs binary-class classification on a given dataset.
+- Feel free to modify and adapt.
+- *Note: The module probably should be reworked for improved reusability, broader test evaluations, etc. (future work!)*
 
 ### Versions:
 
@@ -29,8 +42,8 @@ Out[6]: '0.12.0'
 
 
 ### References:
-
+```
 Hilder, J. A., Owens, N. D., Hickey, P. J., Cairns, S. N., Kilgour, D. P., Timmis, J., & Tyrrell, A. (2011). Parameter optimisation in the receptor density algorithm. In Artificial Immune Systems (pp. 226-239). Springer Berlin Heidelberg.
 
 Owens, N. D., Greensted, A., Timmis, J., & Tyrrell, A. (2009). T cell receptor signalling inspired kernel density estimation and anomaly detection. In Artificial Immune Systems (pp. 122-135). Springer Berlin Heidelberg.
-
+```
